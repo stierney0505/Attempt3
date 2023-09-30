@@ -1,0 +1,154 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-1341233088718146212
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da692e001514ec24dbc4cca1949ff7e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 12
+  hdPluginSubTargetMaterialVersions:
+    m_Keys: []
+    m_Values: 
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Rock_cliff_01
+  m_Shader: {fileID: -6465566751694194690, guid: 43f71cd80fb11f04485cdf267baa1cbb,
+    type: 3}
+  m_ValidKeywords:
+  - _DISABLE_SSR_TRANSPARENT
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2225
+  stringTagMap:
+    MotionVector: User
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  - TransparentDepthPrepass
+  - TransparentDepthPostpass
+  - TransparentBackface
+  - RayTracingPrepass
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_0c0d39d40d3b49558246c9176f52983b:
+        m_Texture: {fileID: 2800000, guid: fc5377a482e53f844923f1d7dbe775c9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_370938182fa743d8991d4cb5c5d39815:
+        m_Texture: {fileID: 2800000, guid: 0744570d3ce1bc4419327409099d0b90, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_45160866612f4e408e206f9ec799110b:
+        m_Texture: {fileID: 2800000, guid: 3229773ecbf8181419449d2e2e470bb6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_4ffcbe102fac4b8495e76cf6d9498049:
+        m_Texture: {fileID: 2800000, guid: fa26988a3d2d184499e68b1deda224fa, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_a1de57b18db34796b772977ae7c7432a:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_c96f3414574c41b8be061cdf0e140b17:
+        m_Texture: {fileID: 2800000, guid: 414cbf589860ca44ea115de5b0d01a4c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_e916866ad3aa48ae9c5d024b99229985:
+        m_Texture: {fileID: 2800000, guid: ad665c2a5a54ea04689ec16f259a4931, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_edf5c0f95efd4052bc9449db5b4f676f:
+        m_Texture: {fileID: 2800000, guid: e17159b2a46101f4ca694ad7e9119b4e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_ee7154a695504833badee27192ed4855:
+        m_Texture: {fileID: 2800000, guid: 29d0841decdeaad46bab797a1f3904fa, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - Vector1_21ddf5e0b59b4e86a0add0e6e8f28575: 0.3
+    - Vector1_631c0d32f3d54b548118fe35e956c5e4: 0
+    - Vector1_9986f527c9304d76823160f2d8ccbee6: 2.94
+    - Vector1_b8d58d1b26aa463ab67d3c2b25fd2127: 14.79
+    - _AddPrecomputedVelocity: 0
+    - _AlphaCutoffEnable: 0
+    - _AlphaDstBlend: 0
+    - _AlphaSrcBlend: 1
+    - _AlphaToMask: 0
+    - _AlphaToMaskInspectorValue: 0
+    - _BlendMode: 0
+    - _ConservativeDepthOffsetEnable: 0
+    - _CullMode: 2
+    - _CullModeForward: 2
+    - _DepthOffsetEnable: 0
+    - _DoubleSidedEnable: 0
+    - _DoubleSidedGIMode: 0
+    - _DoubleSidedNormalMode: 2
+    - _DstBlend: 0
+    - _EnableBlendModePreserveSpecularLighting: 1
+    - _EnableFogOnTransparent: 1
+    - _OpaqueCullMode: 2
+    - _RayTracing: 0
+    - _ReceivesSSR: 1
+    - _ReceivesSSRTransparent: 0
+    - _RefractionModel: 0
+    - _RenderQueueType: 1
+    - _RequireSplitLighting: 0
+    - _SrcBlend: 1
+    - _StencilRef: 0
+    - _StencilRefDepth: 8
+    - _StencilRefDistortionVec: 4
+    - _StencilRefGBuffer: 10
+    - _StencilRefMV: 40
+    - _StencilWriteMask: 6
+    - _StencilWriteMaskDepth: 8
+    - _StencilWriteMaskDistortionVec: 4
+    - _StencilWriteMaskGBuffer: 14
+    - _StencilWriteMaskMV: 40
+    - _SupportDecals: 1
+    - _SurfaceType: 0
+    - _TransparentBackfaceEnable: 0
+    - _TransparentCullMode: 2
+    - _TransparentDepthPostpassEnable: 0
+    - _TransparentDepthPrepassEnable: 0
+    - _TransparentSortPriority: 0
+    - _TransparentWritingMotionVec: 0
+    - _TransparentZWrite: 0
+    - _UseShadowThreshold: 0
+    - _ZTestDepthEqualForOpaque: 3
+    - _ZTestGBuffer: 4
+    - _ZTestTransparent: 4
+    - _ZWrite: 1
+    m_Colors:
+    - Color_fc2d8d7fe4ca45c28efc3037223fd43b: {r: 1, g: 1, b: 1, a: 1}
+    - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []

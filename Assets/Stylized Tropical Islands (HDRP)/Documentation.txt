@@ -1,0 +1,188 @@
+Stylized Tropical Islands (HDRP)
+
+This package works only in HDRP, Unity version 2020.2.2f1 and higher.
+
+Stylized tropical vegetation with a custom shader that helps to control random HUE variation.
+Water shader with verteex displacement, fade-out near the shore, and 2 scrolling normal maps.
+Simple rock, and rock_cliff shaders with detail normals and material blending with custom masks.
+
+Project includes (37) high quality, well optimized assets, created for AAA quality visuals.
+High quality textures - 2048x2048 pixels (Albedo, Mask, Normal map and Thickness map for vegetation)
+
+All of the vegetation besides trees are combined into one texture, 
+and all rocks use one material to reduse draw calls.
+
+Triangle count depends on complexity of the mesh, highest one being 16637 triangles.
+Most of the models have LODs. (4 avg.)
+
+RGB mask for cliffs
+R - edges
+G - mask for moss (grass)
+B - top-down gradient
+
+Bush_01_LOD0 - 2405 tris
+Bush_01_LOD1 - 1774 tris
+Bush_01_LOD2 - 820 tris
+Bush_01_LOD3 - 497 tris
+
+Bush_02_LOD0 - 208 tris
+Bush_02_LOD1 - 128 tris
+Bush_02_LOD2 - 41 tris
+
+Bush_03_LOD0 - 20 tris
+Bush_03_LOD1 - 6 tris
+
+Bush_04_LOD0 - 450 tris
+Bush_04_LOD1 - 215 tris
+Bush_04_LOD2 - 40 tris
+
+Bush_05_LOD0 - 1576 tris
+Bush_05_LOD1 - 858 tris
+Bush_05_LOD2 - 465 tris
+Bush_05_LOD3 - 497 tris
+
+Bush_06_LOD0 - 2313 tris
+Bush_06_LOD1 - 1244 tris
+Bush_06_LOD2 - 536 tris
+Bush_06_LOD3 - 60 tris
+
+Dry_plant_01_LOD0 - 30 tris
+Dry_plant_01_LOD1 - 15 tris
+
+Dry_plant_02_LOD0 - 73 tris
+Dry_plant_02_LOD1 - 36 tris
+
+Dry_plant_03_LOD0 - 38 tris
+Dry_plant_03_LOD1 - 14 tris
+
+Dry_plant_04_LOD0 - 28 tris
+Dry_plant_04_LOD1 - 15 tris
+
+Palm_01_LOD0 - 3178 tris
+Palm_01_LOD1 - 1588 tris
+Palm_01_LOD2 - 794 tris
+Palm_01_LOD3 - 397 tris
+Palm_01_collider - 172 tris
+
+Palm_02_LOD0 - 3108 tris
+Palm_02_LOD1 - 1553 tris
+Palm_02_LOD2 - 776 tris
+Palm_02_LOD3 - 388 tris
+Palm_02_collider - 181 tris
+
+Palm_03_LOD0 - 2472 tris
+Palm_03_LOD1 - 1236 tris
+Palm_03_LOD2 - 618 tris
+Palm_03_LOD3 - 308 tris
+Palm_03_collider - 152 tris
+
+Palm_04_LOD0 - 2492 tris
+Palm_04_LOD1 - 1246 tris
+Palm_04_LOD2 - 623 tris
+Palm_04_LOD3 - 310 tris
+Palm_04_collider - 171 tris
+
+Water_plane - 8192 tris
+
+Plant_01_LOD0 - 210 tris
+Plant_01_LOD1 - 126 tris
+Plant_01_LOD2 - 61 tris
+
+Plant_02_LOD0 - 90 tris
+Plant_02_LOD1 - 51 tris
+Plant_02_LOD2 - 27 tris
+
+Plant_03_LOD0 - 840 tris
+Plant_03_LOD1 - 496 tris
+Plant_03_LOD2 - 214 tris
+
+Plant_04_LOD0 - 396 tris
+Plant_04_LOD1 - 219 tris
+Plant_04_LOD2 - 86 tris
+
+Plant_05_LOD0 - 460 tris
+Plant_05_LOD1 - 229 tris
+Plant_05_LOD2 - 108 tris
+
+Plant_06_LOD0 - 851 tris
+Plant_06_LOD1 - 425 tris
+Plant_06_LOD2 - 212 tris
+Plant_06_LOD3 - 106 tris
+
+Plant_07_LOD0 - 1110 tris
+Plant_07_LOD1 - 555 tris
+Plant_07_LOD2 - 277 tris
+Plant_07_LOD3 - 134 tris
+
+Plant_08_LOD0 - 177 tris
+Plant_08_LOD1 - 88 tris
+Plant_08_LOD2 - 44 tris
+Plant_08_LOD3 - 18 tris
+
+Rock_01_LOD0 - 90 tris
+Rock_01_LOD1 - 44 tris
+Rock_01_LOD2 - 18 tris
+
+Rock_02_LOD0 - 152 tris
+Rock_02_LOD1 - 76 tris
+Rock_02_LOD2 - 32 tris
+
+Rock_03_LOD0 - 176 tris
+Rock_03_LOD1 - 74 tris
+Rock_03_LOD2 - 32 tris
+
+Rock_04_LOD0 - 144 tris
+Rock_04_LOD1 - 72 tris
+Rock_04_LOD2 - 34 tris
+
+Rock_05_LOD0 - 238 tris
+Rock_05_LOD1 - 118 tris
+Rock_05_LOD2 - 50 tris
+
+Rock_06_LOD0 - 288 tris
+Rock_06_LOD1 - 144 tris
+Rock_06_LOD2 - 58 tris
+
+Rock_07_LOD0 - 324 tris
+Rock_07_LOD1 - 162 tris
+Rock_07_LOD2 - 58 tris
+
+Rock_08_LOD0 - 764 tris
+Rock_08_LOD1 - 382 tris
+Rock_08_LOD2 - 190 tris
+Rock_08_LOD3 - 94 tris
+
+Rock_09_LOD0 - 684 tris
+Rock_09_LOD1 - 342 tris
+Rock_09_LOD2 - 170 tris
+Rock_09_LOD3 - 62 tris
+
+Rock_10_LOD0 - 750 tris
+Rock_10_LOD1 - 374 tris
+Rock_10_LOD2 - 186 tris
+Rock_10_LOD3 - 58 tris
+
+Rock_11_LOD0 - 638 tris
+Rock_11_LOD1 - 318 tris
+Rock_11_LOD2 - 156 tris
+Rock_11_LOD3 - 52 tris
+
+Rock_Cliff_01_LOD0 - 16637 tris
+Rock_Cliff_01_LOD1 - 9218 tris
+Rock_Cliff_01_LOD2 - 4656 tris
+Rock_Cliff_01_LOD3 - 2167 tris
+Rock_Cliff_01_LOD4 - 766 tris
+
+Rock_Cliff_02_LOD0 - 5071 tris
+Rock_Cliff_02_LOD1 - 2535 tris
+Rock_Cliff_02_LOD2 - 1274 tris
+Rock_Cliff_02_LOD3 - 356 tris
+
+Rock_Cliff_03_LOD0 - 5090 tris
+Rock_Cliff_03_LOD1 - 2545 tris
+Rock_Cliff_03_LOD2 - 1272 tris
+Rock_Cliff_03_LOD3 - 636 tris
+
+
+
+

@@ -15,6 +15,7 @@ Material:
   - _COLOR_TINT
   - _LIGHTING_QUALITY_HIGH
   - _NORMALMAP
+  - _OVERLAY
   - _SPECULARHIGHLIGHTS_OFF
   - _TRANSLUCENCY
   - _WIND
@@ -22,7 +23,6 @@ Material:
   - _EMISSIONAFFECTEDBYALBEDO_OFF
   - _INTERACTION_OFF
   - _LINKMAPTILINGOFFSET_ON
-  - _OVERLAY
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 1

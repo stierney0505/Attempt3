@@ -12,15 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 951825131, guid: 130efd8901c5a5b4487d847adc03c402, type: 3}
   m_Name: Nature Shaders
   m_EditorClassIdentifier: 
-  _displayName: Nature Shaders Essentials
-  _description: Nature Shaders Essentials is a collection of essential shaders for
-    your vegetation.
+  _displayName: Nature Shaders
+  _description: Nature Shaders is a collection of shaders for your vegetation that
+    brings you player interaction, wind simulations, better quality shading, and
+    more.
   _version:
-    _bundleIdentifier: com.vdc.nature-shaders.embedded
+    _bundleIdentifier: com.vdc.nature-shaders.hdrp
     _versionNumber: 2021.1.2
     _buildNumber: 8
   _downloadInBackground: 1
   _priority: 0
-  _documentationUrl: 
-  _demoScene: 
-  _pingAsset: 0
+  _documentationUrl: https://visualdesigncafe.com/nature-shaders/docs/2021
+  _demoScene: 216cf3d47b87d4c4198cd9fd9321f7df
+  _pingAsset: 1

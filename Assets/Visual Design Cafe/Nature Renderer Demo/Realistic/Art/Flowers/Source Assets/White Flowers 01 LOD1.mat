@@ -13,16 +13,15 @@ Material:
   - _ALPHATEST
   - _BAKED_MESH_DATA
   - _COLOR_HSL
+  - _INTERACTION
   - _LIGHTING_QUALITY_LOW
+  - _OVERLAY
   - _SURFACE_MAP_PACKED
   - _TRANSLUCENCY
   - _WIND
   m_InvalidKeywords:
   - _EMISSIONAFFECTEDBYALBEDO_OFF
-  - _INTERACTION
-  - _INTERACTION_OFF
   - _LINKMAPTILINGOFFSET_ON
-  - _OVERLAY
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0

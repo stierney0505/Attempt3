@@ -1,0 +1,92 @@
+fileFormatVersion: 2
+guid: cbf71fa500def2a4bbbbdcd5948d90cc
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: d2f8ca521d4faaa41b1d31f0f02aec62, type: 3}
+  _source: {instanceID: 0}
+  _format: 0
+  _materialImportSettings:
+    _convertMaterials: 1
+    _settings: []
+  _textureImportSettings:
+    _convertTextures: 0
+    _settings: []
+  _meshImportSettings:
+    _convertMeshes: 1
+    _meshComplexity: 1
+    _axisOrientation: 0
+    _trunkHasColliders: 0
+    _branchWindScale: 1
+    _leafWindScale: 1
+    _windVariation: 1
+    _mergeIntersecting: 0
+    _removeDoubleSidedFaces: 1
+    _settings: []
+  _importSettings:
+    _source: {fileID: 1211632490319319084, guid: 7a6d735547ce6c34f90366cefb420724,
+      type: 3}
+    _format: 0
+    _materialImportSettings:
+      _convertMaterials: 1
+      _settings:
+      - Id: BeachRock5
+        Shader: HDRP/Lit
+        Type: 0
+        Override: {instanceID: 0}
+        Wind: 1
+        Translucency: 1
+        Interaction: 1
+        Overlay: 1
+        FlipNormals: 1
+        Floats: []
+        Vectors: []
+        Colors: []
+        Textures: []
+    _textureImportSettings:
+      _convertTextures: 0
+      _settings:
+      - Id: BeachRock5
+        TextureQuality: 1
+        BoostSharpness: 1
+      - Id: BeachRock5-nrm
+        TextureQuality: 1
+        BoostSharpness: 1
+    _meshImportSettings:
+      _convertMeshes: 1
+      _meshComplexity: 1
+      _axisOrientation: 0
+      _trunkHasColliders: 0
+      _branchWindScale: 1
+      _leafWindScale: 1
+      _windVariation: 1
+      _mergeIntersecting: 0
+      _removeDoubleSidedFaces: 1
+      _settings:
+      - Id: BeachRock5_LOD0
+        SubMeshes:
+        - Id: BeachRock5
+          Type: 0
+      - Id: BeachRock5_LOD1
+        SubMeshes:
+        - Id: BeachRock5
+          Type: 0
+      - Id: BeachRock5_LOD2
+        SubMeshes:
+        - Id: BeachRock5
+          Type: 0
+      - Id: BeachRock5_LOD3
+        SubMeshes:
+        - Id: BeachRock5
+          Type: 0
+      - Id: BeachRock5_LOD4
+        SubMeshes:
+        - Id: BeachRock5
+          Type: 0
+    _rendererImportSettings:
+      _overrideCastShadows: 0
+      _castShadows: 1

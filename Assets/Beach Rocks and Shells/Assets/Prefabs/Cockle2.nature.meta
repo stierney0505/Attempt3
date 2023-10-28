@@ -1,0 +1,92 @@
+fileFormatVersion: 2
+guid: 4f461c2fb2750c74183dcc515025d2bb
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: d2f8ca521d4faaa41b1d31f0f02aec62, type: 3}
+  _source: {instanceID: 0}
+  _format: 0
+  _materialImportSettings:
+    _convertMaterials: 1
+    _settings: []
+  _textureImportSettings:
+    _convertTextures: 0
+    _settings: []
+  _meshImportSettings:
+    _convertMeshes: 1
+    _meshComplexity: 1
+    _axisOrientation: 0
+    _trunkHasColliders: 0
+    _branchWindScale: 1
+    _leafWindScale: 1
+    _windVariation: 1
+    _mergeIntersecting: 0
+    _removeDoubleSidedFaces: 1
+    _settings: []
+  _importSettings:
+    _source: {fileID: 5328574859035916051, guid: f6c25d24edbf6b54c838604e0acf7974,
+      type: 3}
+    _format: 0
+    _materialImportSettings:
+      _convertMaterials: 1
+      _settings:
+      - Id: Cockle2
+        Shader: HDRP/Lit
+        Type: 0
+        Override: {instanceID: 0}
+        Wind: 1
+        Translucency: 1
+        Interaction: 1
+        Overlay: 1
+        FlipNormals: 1
+        Floats: []
+        Vectors: []
+        Colors: []
+        Textures: []
+    _textureImportSettings:
+      _convertTextures: 0
+      _settings:
+      - Id: Cockle2
+        TextureQuality: 1
+        BoostSharpness: 1
+      - Id: Cockle2-nrm
+        TextureQuality: 1
+        BoostSharpness: 1
+    _meshImportSettings:
+      _convertMeshes: 1
+      _meshComplexity: 1
+      _axisOrientation: 0
+      _trunkHasColliders: 0
+      _branchWindScale: 1
+      _leafWindScale: 1
+      _windVariation: 1
+      _mergeIntersecting: 0
+      _removeDoubleSidedFaces: 1
+      _settings:
+      - Id: Cockle2_LOD0
+        SubMeshes:
+        - Id: Cockle2
+          Type: 0
+      - Id: Cockle2_LOD1
+        SubMeshes:
+        - Id: Cockle2
+          Type: 0
+      - Id: Cockle2_LOD2
+        SubMeshes:
+        - Id: Cockle2
+          Type: 0
+      - Id: Cockle2_LOD3
+        SubMeshes:
+        - Id: Cockle2
+          Type: 0
+      - Id: Cockle2_LOD4
+        SubMeshes:
+        - Id: Cockle2
+          Type: 0
+    _rendererImportSettings:
+      _overrideCastShadows: 0
+      _castShadows: 1

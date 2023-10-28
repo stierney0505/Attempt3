@@ -1,0 +1,92 @@
+fileFormatVersion: 2
+guid: 2a536dda42ce72b4a98c2b4a5a8eada7
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: d2f8ca521d4faaa41b1d31f0f02aec62, type: 3}
+  _source: {instanceID: 0}
+  _format: 0
+  _materialImportSettings:
+    _convertMaterials: 1
+    _settings: []
+  _textureImportSettings:
+    _convertTextures: 0
+    _settings: []
+  _meshImportSettings:
+    _convertMeshes: 1
+    _meshComplexity: 1
+    _axisOrientation: 0
+    _trunkHasColliders: 0
+    _branchWindScale: 1
+    _leafWindScale: 1
+    _windVariation: 1
+    _mergeIntersecting: 0
+    _removeDoubleSidedFaces: 1
+    _settings: []
+  _importSettings:
+    _source: {fileID: 4716282148133536894, guid: 88efc4ae7ef5b7641bb37a579b0f2582,
+      type: 3}
+    _format: 0
+    _materialImportSettings:
+      _convertMaterials: 1
+      _settings:
+      - Id: BeachRockLarge
+        Shader: HDRP/Lit
+        Type: 0
+        Override: {instanceID: 0}
+        Wind: 1
+        Translucency: 1
+        Interaction: 1
+        Overlay: 1
+        FlipNormals: 1
+        Floats: []
+        Vectors: []
+        Colors: []
+        Textures: []
+    _textureImportSettings:
+      _convertTextures: 0
+      _settings:
+      - Id: BeachRockLarge
+        TextureQuality: 1
+        BoostSharpness: 1
+      - Id: BeachRockLarge-nrm
+        TextureQuality: 1
+        BoostSharpness: 1
+    _meshImportSettings:
+      _convertMeshes: 1
+      _meshComplexity: 1
+      _axisOrientation: 0
+      _trunkHasColliders: 0
+      _branchWindScale: 1
+      _leafWindScale: 1
+      _windVariation: 1
+      _mergeIntersecting: 0
+      _removeDoubleSidedFaces: 1
+      _settings:
+      - Id: BeachRockLarge_LOD0
+        SubMeshes:
+        - Id: BeachRockLarge
+          Type: 0
+      - Id: BeachRockLarge_LOD1
+        SubMeshes:
+        - Id: BeachRockLarge
+          Type: 0
+      - Id: BeachRockLarge_LOD2
+        SubMeshes:
+        - Id: BeachRockLarge
+          Type: 0
+      - Id: BeachRockLarge_LOD3
+        SubMeshes:
+        - Id: BeachRockLarge
+          Type: 0
+      - Id: BeachRockLarge_LOD4
+        SubMeshes:
+        - Id: BeachRockLarge
+          Type: 0
+    _rendererImportSettings:
+      _overrideCastShadows: 0
+      _castShadows: 1

@@ -20,8 +20,8 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 0
   earthCurvature:
-    m_OverrideState: 0
-    m_Value: 0
+    m_OverrideState: 1
+    m_Value: 1
   cloudTiling:
     m_OverrideState: 0
     m_Value: {x: 1, y: 1}
@@ -30,10 +30,10 @@ MonoBehaviour:
     m_Value: {x: 0, y: 0}
   lowestCloudAltitude:
     m_OverrideState: 1
-    m_Value: 1000
+    m_Value: 4000
   cloudThickness:
     m_OverrideState: 1
-    m_Value: 8000
+    m_Value: 1000
   fadeInMode:
     m_OverrideState: 0
     m_Value: 0
@@ -62,7 +62,7 @@ MonoBehaviour:
     m_Value: 0
   cloudPreset:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 4
   cumulusMap:
     m_OverrideState: 0
     m_Value: {fileID: 0}
@@ -150,8 +150,8 @@ MonoBehaviour:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0
-        value: 0.9
+        time: -0.099995434
+        value: 0.95578384
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -159,8 +159,8 @@ MonoBehaviour:
         inWeight: 0
         outWeight: 0
       - serializedVersion: 3
-        time: 0.062503055
-        value: 1.0028305
+        time: 0.15416718
+        value: 1.0035461
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -168,8 +168,8 @@ MonoBehaviour:
         inWeight: 0
         outWeight: 0
       - serializedVersion: 3
-        time: 0.8
-        value: 1
+        time: 0.96667176
+        value: 0.95367813
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -234,10 +234,10 @@ MonoBehaviour:
     m_Value: 1
   densityMultiplier:
     m_OverrideState: 1
-    m_Value: 0.166
+    m_Value: 0.102
   shapeFactor:
     m_OverrideState: 1
-    m_Value: 0.773
+    m_Value: 0.716
   shapeScale:
     m_OverrideState: 1
     m_Value: 2.5
@@ -246,13 +246,13 @@ MonoBehaviour:
     m_Value: {x: 0, y: 0, z: 0}
   erosionFactor:
     m_OverrideState: 1
-    m_Value: 0.637
-  erosionScale:
-    m_OverrideState: 0
-    m_Value: 75
-  erosionNoiseType:
-    m_OverrideState: 0
     m_Value: 1
+  erosionScale:
+    m_OverrideState: 1
+    m_Value: 30
+  erosionNoiseType:
+    m_OverrideState: 1
+    m_Value: 0
   ambientLightProbeDimmer:
     m_OverrideState: 0
     m_Value: 1
